@@ -1,6 +1,6 @@
 #!/bin/tclsh
-set checkURL    "https://raw.githubusercontent.com/p-kowa/HB-UNI-Sensor1_BME280_E-Paper/main/CCU_RM/src/addon/VERSION"
-set downloadURL "https://github.com/p-kowa/HB-UNI-Sensor1_BME280_E-Paper/raw/main/CCU_RM/hb-pk-devices-addon.tgz"
+set checkURL    "https://raw.githubusercontent.com/p-kowa/CCU_RM_AddOn/main/src/addon/VERSION"
+set downloadURL "https://github.com/p-kowa/CCU_RM_AddOn/raw/main/hb-pk-devices-addon.tgz"
 catch {
   set input $env(QUERY_STRING)
   set pairs [split $input &]

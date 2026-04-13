@@ -2,13 +2,15 @@ import tarfile
 import os
 import io
 
-src_dir = r"C:\Daten\Arduino\PlatformIO\Projects\HB-UNI-Sensor1_BME280_E-Paper\CCU_RM\src"
-output  = r"C:\Daten\Arduino\PlatformIO\Projects\HB-UNI-Sensor1_BME280_E-Paper\CCU_RM\hb-pk-devices-addon.tgz"
+src_dir = r"C:\Daten\Arduino\PlatformIO\Projects\HomeAutomation\CCU_RM_AddOn\src"
+output  = r"C:\Daten\Arduino\PlatformIO\Projects\HomeAutomation\CCU_RM_AddOn\hb-pk-devices-addon.tgz"
 
 executables = {
     'update_script',
     'install_hb-uni-sensor-THPL-BME280',
     'uninstall_hb-uni-sensor-THPL-BME280',
+    'install_hb-uni-sensor-AHT11-GL5528',
+    'uninstall_hb-uni-sensor-AHT11-GL5528',
     'patchworker',
     'update-check.cgi',
     'hb-pk-devices-addon',
